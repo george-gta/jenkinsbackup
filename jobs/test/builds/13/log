@@ -1,0 +1,25 @@
+Started by user [8mha:////4OFr4ijlfE9JOyBNWWOKIWfj50w/gKarofsai7rKcOdSAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mGeorgi
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test
+using credential github_key
+Cloning the remote Git repository
+Cloning repository https://github.com/george-gta/jenkins
+ > git init /var/jenkins_home/workspace/test # timeout=10
+Fetching upstream changes from https://github.com/george-gta/jenkins
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Github_Key
+ > git fetch --tags --progress -- https://github.com/george-gta/jenkins +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/george-gta/jenkins # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/george-gta/jenkins # timeout=10
+Fetching upstream changes from https://github.com/george-gta/jenkins
+using GIT_ASKPASS to set credentials Github_Key
+ > git fetch --tags --progress -- https://github.com/george-gta/jenkins +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ef7bebf8bdb1919d947afe46ab4b2fb4278039b3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ef7bebf8bdb1919d947afe46ab4b2fb4278039b3 # timeout=10
+Commit message: "Fix groupId after package refactor"
+First time build. Skipping changelog.
+Finished: SUCCESS

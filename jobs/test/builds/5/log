@@ -1,0 +1,9 @@
+Started by user [8mha:////4OFr4ijlfE9JOyBNWWOKIWfj50w/gKarofsai7rKcOdSAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mGeorgi
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins3302085534163760904.sh
++ ssh 78.47.160.98
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Host key verification failed.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
